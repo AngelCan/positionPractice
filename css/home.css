@@ -1,0 +1,39 @@
+.menu{
+    color: black;
+    align-content: space-around;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 45px;
+}
+.menu button{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 35px;
+    background-color: white;
+    border: none;
+}
+.menu ul{
+    align-content: space-around;
+    display: inline-block;
+}
+.menu li{
+    display: inline-block;
+    flex-direction: column;
+}
+.optionsBar{
+    visibility: hidden;
+}
+.inicio{
+    color:greenyellow;
+}
+.cuadro{
+    background-color: greenyellow;
+    width: 94rem;
+    display: inline-block;
+    align-content: space-around;
+}
+.carta{
+    position:relative;
+    align-content: space-around;
+}
+.carta h2{
+    color: white;
+}

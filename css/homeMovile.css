@@ -1,0 +1,11 @@
+@media screen and (max-width: 400px) {
+    .optionsBar{
+        visibility: visible;
+    }
+    .options{
+        visibility: hidden;
+    }
+    .carta p{
+        color: white;
+    }
+}
