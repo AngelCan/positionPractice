@@ -1,4 +1,7 @@
 @media screen and (max-width: 400px) {
+    .menu{
+        font-size: 20px;
+    }
     .optionsBar{
         visibility: visible;
     }
@@ -7,5 +10,10 @@
     }
     .carta p{
         color: white;
+        
+    }
+    .cuadro{
+        width: 100%;
+        text-align: center;
     }
 }

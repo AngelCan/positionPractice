@@ -2,11 +2,11 @@
     color: black;
     align-content: space-around;
     font-family: 'Ropa Sans', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
 }
 .menu button{
     font-family: 'Ropa Sans', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     background-color: white;
     border: none;
 }
@@ -28,7 +28,23 @@
     background-color: greenyellow;
     width: 94rem;
     display: inline-block;
-    align-content: space-around;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.textoSobrePuesto{
+    background-color: white;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    transform: translate(-50%, -50%);
 }
 .carta{
     position:relative;
@@ -36,4 +52,14 @@
 }
 .carta h2{
     color: white;
+}
+.backToInicio{
+    background-color: #60C5F9;
+    border-radius: 50%;
+    right: 16px;
+}
+.verMas{
+    padding: 2rem;
+    background-color: white;
+    color: #323433;
 }
