@@ -1,11 +1,12 @@
 .menu{
     color: black;
     align-content: space-around;
-    font-family: 'Ropa Sans', sans-serif;
+    font-family:  'Oswald', sans-serif;
     font-size: 35px;
+    margin-left: 90px;
 }
 .menu button{
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 25px;
     background-color: white;
     border: none;
@@ -28,6 +29,8 @@
     background-color: greenyellow;
     width: 94rem;
     display: inline-block;
+    align-content:center;
+    font-family: 'Oswald', sans-serif;
 }
 .contenedor{
     position: relative;
@@ -42,13 +45,16 @@
 .textoSobrePuesto{
     background-color: white;
     position: absolute;
-    top: 85%;
-    left: 15%;
+    top: 83%;
+    left: 13%;
     transform: translate(-50%, -50%);
 }
 .carta{
     position:relative;
     align-content: space-around;
+    flex-direction: row;
+    display: inline-block;
+    margin-left: 90px;
 }
 .carta h2{
     color: white;
@@ -57,9 +63,17 @@
     background-color: #60C5F9;
     border-radius: 50%;
     right: 16px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
 }
 .verMas{
+    font-family: 'Oswald', sans-serif;
     padding: 2rem;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 90px;
     background-color: white;
     color: #323433;
 }
